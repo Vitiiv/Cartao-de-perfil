@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    width: 100%;
+}
+
+.cartao-inteiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 330px;
+    height: 350px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 10px;
+    /* height: 100%; */
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 130px;
+}
+
+
+
+.status-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    padding-bottom: 50px;
+    margin: -30px ;
+    text-align: center;
+
+}
+
+.status {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.nome {
+    color: black;
+}
+
+.status p {
+    color: black;
+}
+
+.idade {
+    color: var(--text-color);
+}
+
+@media(max-width: 350px){
+
+}
